@@ -41,8 +41,6 @@
                 android:text="서랍 안입니다."/>
 
         </LinearLayout>
-
-
     </SlidingDrawer>
 
 </LinearLayout>
