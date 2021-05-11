@@ -38,6 +38,9 @@ public class MainActivity extends AppCompatActivity {
         //웹 화면 줌 기능 활성화화
        webSet.setBuiltInZoomControls(true);
 
+       //자바스크립트 동작 활성화
+        webSet.setJavaScriptEnabled(true);
+
        //버튼 클릭하면 url주소를 받아와서 로드함
        btnGo.setOnClickListener(new View.OnClickListener() {
            @Override
