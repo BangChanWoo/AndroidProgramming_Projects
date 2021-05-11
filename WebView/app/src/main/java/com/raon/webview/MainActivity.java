@@ -58,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     //WebviewClient클래스를 상속받아 새로운 웹뷰 클래스 생성
+    //실제로 웹 화면이 되는 객체
     class MyWebViewClient extends WebViewClient{
         @Override
         public boolean shouldOverrideUrlLoading(WebView view, String url) {
