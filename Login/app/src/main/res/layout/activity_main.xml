@@ -7,21 +7,21 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/textName"
+    <EditText
+        android:id="@+id/editName"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="사용자 이름" />
+        android:layout_height="wrap_content"/>
 
-    <TextView
-        android:id="@+id/textEmail"
+    <EditText
+        android:id="@+id/editEmail"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="이메일"/>
+        android:layout_height="wrap_content"/>
 
     <Button
         android:id="@+id/btn1"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:text="여기를 클릭"
+        android:layout_gravity="center"/>
 
 </LinearLayout>
