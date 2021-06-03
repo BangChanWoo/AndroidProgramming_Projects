@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
 
                 AlertDialog.Builder dlg = new AlertDialog.Builder(MainActivity.this);
 
-                dlg.setTitle("사용자 정보 입력");
+                dlg.setTitle("앙 찬우띠");
                 dlg.setIcon(R.drawable.ic_launcher_foreground);
                 dlg.setView(dialogView);
 
